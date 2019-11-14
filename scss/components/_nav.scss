@@ -1,0 +1,13 @@
+.nav {
+	max-width: 380px;
+	&-item {
+		padding-left: 24px;
+		color: $main-color;
+	}
+}
+
+@media (max-width: 640px) {
+	.nav {
+		display: none;
+	}
+}

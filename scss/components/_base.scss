@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: sans-serif;
+}
+
+ul, li {
+	list-style: none;
+}
+
+a, .link {
+  text-decoration: none;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+.flex-grow-1 {
+	flex-grow: 1;
+}
+
+.wrapper {
+	position: relative;
+	overflow: hidden;
+}
+
+.container {
+	max-width: 1030px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+.logo {
+	padding: 15px 0;
+}
+
+.decore {
+	border-left: 2px solid $accent-color;
+	padding-left: 10px;
+}

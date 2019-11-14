@@ -1,0 +1,9 @@
+.grid {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.header .grid {
+	align-items: center;
+	justify-content: space-between;
+}
