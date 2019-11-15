@@ -22,3 +22,16 @@
 	max-width: 470px;
 	font-size: $global-font-size - 4px;
 }
+
+@media (max-width: 960px) {
+	.section {
+		padding-top: 50px;
+	}
+	.section:last-child {
+	padding-bottom: 50px;
+    }
+}
+
+@media (max-width: 640px) {
+	
+}

@@ -21,3 +21,11 @@
 .card-button {
 	margin-top: 25px;
 }
+
+ @media (max-width: 480px) {
+ 	.card {
+ 		padding: 0 40px;
+ 		padding-bottom: 20px;
+ 	}
+
+ }

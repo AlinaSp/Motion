@@ -27,3 +27,19 @@
 	padding-bottom: 20px;
 	font-size: $global-font-size - 2px;
 }
+
+@media (max-width: 1200px) {
+	.hero {
+		padding: 100px 0;
+	}
+	.background img {
+	width: auto;
+	height: 100%;
+}
+}
+
+@media (max-width: 960px) {
+	.hero {
+		padding: 70px 0;
+	}
+}

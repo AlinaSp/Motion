@@ -37,8 +37,46 @@
 	}
 }
 
+/* burger menu */
+.burger-wrapper{
+	display: none;
+    max-width: 200px;
+    background-color: transparent;
+    position: relative;
+    color: white;
+    text-align: center;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.burger-line{
+    position: absolute;
+    top: 13px;
+    right: 10px;
+    width: 30px;
+    height: 5px;
+    border-radius: 20%;
+    background-color: $accent-color;
+    transition: .5s all;
+}
+
+.second, .third{
+    top: 23px;
+}
+
+.fourth{
+    top: 33px;
+}
+
+
 @media (max-width: 640px) {
-	.nav {
+  .burger-wrapper {
+    display: block;
+  }
+  .nav {
 		display: none;
 	}
 }
+
+
+

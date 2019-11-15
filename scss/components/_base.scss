@@ -48,8 +48,8 @@ img {
 }
 
 .container {
-	max-width: 1030px;
-	padding: 0 15px;
+	max-width: 1040px;
+	padding: 0 20px;
 	margin: 0 auto;
 }
 
@@ -87,4 +87,27 @@ img {
 
 .bold {
 	font-weight: bold;
+}
+
+@media (max-width: 640px) {
+	.decore {
+	border-top: 2px solid $accent-color;
+	padding-top: 10px;
+	margin-top: 15px;
+	border-left: none;
+	padding-left: 0;
+  }
+  .px-7vw {
+  	padding: 0 7vw;
+  }
+}
+
+@media (max-width: 480px) {
+	.copyright {
+		text-align: center;
+	}
+	.contact-list {
+		margin: 0 auto;
+		padding-top: 10px;
+	}
 }
