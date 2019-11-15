@@ -1,8 +1,39 @@
 .nav {
-	max-width: 380px;
+	width: 360px;
+	font-weight: bold;
+	font-size: $global-font-size - 4px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
 	&-item {
-		padding-left: 24px;
+		position: relative;
 		color: $main-color;
+		padding: 0 3px;
+		&.is-active {
+			color: $accent-color;
+		}
+		&.is-active:after {
+			content: "";
+			display: block;
+			background-color: $accent-color;
+			width: 100%;
+			height: 3px;
+			position: absolute;
+			top: 37px;
+			cursor: default;
+		}
+		&:hover {
+			color: $accent-color;
+		}
+		&:hover:after {
+			content: "";
+			display: block;
+			background-color: $accent-color;
+			width: 100%;
+			height: 3px;
+			position: absolute;
+			top: 37px;
+		}
 	}
 }
 

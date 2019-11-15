@@ -1,6 +1,6 @@
 .hero {
 	position: relative;
-	padding: 130px 0;
+	padding: 120px 0;
 }
 
 .background {
@@ -18,8 +18,12 @@
 
 .hero-title {
 	max-width: 450px;
+	padding-bottom: 20px;
+	font-size: $global-font-size + 12px;
 }
 
 .hero-text {
 	max-width: 500px;
+	padding-bottom: 20px;
+	font-size: $global-font-size - 2px;
 }

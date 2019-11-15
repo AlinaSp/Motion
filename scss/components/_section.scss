@@ -1,0 +1,24 @@
+.section {
+	padding-top: 90px;
+	background-color: $main-background;
+}
+
+.section:last-child {
+	padding-bottom: 90px;
+}
+
+.section-title {
+	text-align: center;
+	padding-bottom: 35px;
+	font-size: $global-font-size + 8px;
+}
+
+.section-subtitle {
+	font-size: $global-font-size;
+}
+
+.section-text {
+	color: #646464;
+	max-width: 470px;
+	font-size: $global-font-size - 4px;
+}

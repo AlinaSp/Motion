@@ -1,7 +1,22 @@
 .button {
+	display: inline-block;
 	color: #fff;
 	background-color: $accent-color;
 	padding: 10px;
 	border: 2px solid $accent-color;
 	margin: 10px 0;
+	font-weight: bold;
+	font-size: $global-font-size - 4px;
+	  &:hover {
+	  	color: $accent-color;
+	  	background-color: transparent;
+	  }
+}
+
+.card .button {
+	display: block;
+}
+
+.hero .button {
+	font-size: $global-font-size - 2px;
 }

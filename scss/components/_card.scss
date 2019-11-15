@@ -1,0 +1,23 @@
+.card {
+	display: flex;
+	flex-flow: column wrap;
+	padding: 0 25px;
+}
+
+.card-description {
+	text-align: center;
+}
+
+.card-title {
+	padding: 20px 0;
+	font-size: $global-font-size;
+}
+
+.card-text {
+	color: #646464;
+	font-size: $global-font-size - 4px;
+}
+
+.card-button {
+	margin-top: 25px;
+}
